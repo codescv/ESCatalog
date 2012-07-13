@@ -35,17 +35,17 @@
 		69A3CCAE15AFADDE00FC84A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		69A3CCB015AFADDE00FC84A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		69A3CCB215AFADDE00FC84A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		69A3CCB615AFADDE00FC84A9 /* ESCatalog-Info.plist */ = {isa = PBXFileReference; path = "ESCatalog-Info.plist"; sourceTree = "<group>"; };
+		69A3CCB615AFADDE00FC84A9 /* ESCatalog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESCatalog-Info.plist"; sourceTree = "<group>"; };
 		69A3CCB815AFADDE00FC84A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69A3CCBA15AFADDE00FC84A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		69A3CCBC15AFADDE00FC84A9 /* ESCatalog-Prefix.pch */ = {isa = PBXFileReference; path = "ESCatalog-Prefix.pch"; sourceTree = "<group>"; };
-		69A3CCBD15AFADDE00FC84A9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		69A3CCBC15AFADDE00FC84A9 /* ESCatalog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ESCatalog-Prefix.pch"; sourceTree = "<group>"; };
+		69A3CCBD15AFADDE00FC84A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		69A3CCBE15AFADDE00FC84A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		69A3CCC515AFADDE00FC84A9 /* ESCatalogTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESCatalogTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A3CCC615AFADDE00FC84A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		69A3CCCE15AFADDE00FC84A9 /* ESCatalogTests-Info.plist */ = {isa = PBXFileReference; path = "ESCatalogTests-Info.plist"; sourceTree = "<group>"; };
+		69A3CCCE15AFADDE00FC84A9 /* ESCatalogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESCatalogTests-Info.plist"; sourceTree = "<group>"; };
 		69A3CCD015AFADDE00FC84A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		69A3CCD215AFADDE00FC84A9 /* ESCatalogTests.h */ = {isa = PBXFileReference; path = ESCatalogTests.h; sourceTree = "<group>"; };
+		69A3CCD215AFADDE00FC84A9 /* ESCatalogTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCatalogTests.h; sourceTree = "<group>"; };
 		69A3CCD315AFADDE00FC84A9 /* ESCatalogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCatalogTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,6 +189,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Chi Zhang";
 			};
 			buildConfigurationList = 69A3CCA415AFADDE00FC84A9 /* Build configuration list for PBXProject "ESCatalog" */;
 			compatibilityVersion = "Xcode 3.2";

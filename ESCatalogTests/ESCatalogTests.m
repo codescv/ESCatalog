@@ -2,8 +2,8 @@
 //  ESCatalogTests.m
 //  ESCatalogTests
 //
-//  Created by Zhang Chi on 7/13/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Chi Zhang on 7/13/12.
+//  Copyright (c) 2012 Chi Zhang. All rights reserved.
 //
 
 #import "ESCatalogTests.h"
