@@ -18,6 +18,7 @@
 		69A3CCC915AFADDE00FC84A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCB015AFADDE00FC84A9 /* Foundation.framework */; };
 		69A3CCD115AFADDE00FC84A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CCCF15AFADDE00FC84A9 /* InfoPlist.strings */; };
 		69A3CCD415AFADDE00FC84A9 /* ESCatalogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CCD315AFADDE00FC84A9 /* ESCatalogTests.m */; };
+		69A3CD2815AFB01A00FC84A9 /* libESBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CD1A15AFAF7B00FC84A9 /* libESBlocks.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 69A3CCA915AFADDE00FC84A9;
 			remoteInfo = ESCatalog;
+		};
+		69A3CD1915AFAF7B00FC84A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 69A3CCE815AFAEB400FC84A9;
+			remoteInfo = ESBlocks;
+		};
+		69A3CD1B15AFAF7B00FC84A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 69A3CCF815AFAEB400FC84A9;
+			remoteInfo = ESBlocksTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -47,6 +62,7 @@
 		69A3CCD015AFADDE00FC84A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69A3CCD215AFADDE00FC84A9 /* ESCatalogTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCatalogTests.h; sourceTree = "<group>"; };
 		69A3CCD315AFADDE00FC84A9 /* ESCatalogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCatalogTests.m; sourceTree = "<group>"; };
+		69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESBlocks.xcodeproj; path = Lib/ESBlocks/ESBlocks.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A3CD2815AFB01A00FC84A9 /* libESBlocks.a in Frameworks */,
 				69A3CCAF15AFADDE00FC84A9 /* UIKit.framework in Frameworks */,
 				69A3CCB115AFADDE00FC84A9 /* Foundation.framework in Frameworks */,
 				69A3CCB315AFADDE00FC84A9 /* CoreGraphics.framework in Frameworks */,
@@ -95,6 +112,7 @@
 		69A3CCAD15AFADDE00FC84A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */,
 				69A3CCAE15AFADDE00FC84A9 /* UIKit.framework */,
 				69A3CCB015AFADDE00FC84A9 /* Foundation.framework */,
 				69A3CCB215AFADDE00FC84A9 /* CoreGraphics.framework */,
@@ -141,6 +159,15 @@
 				69A3CCCF15AFADDE00FC84A9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69A3CD1515AFAF7B00FC84A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69A3CD1A15AFAF7B00FC84A9 /* libESBlocks.a */,
+				69A3CD1C15AFAF7B00FC84A9 /* ESBlocksTests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +228,12 @@
 			mainGroup = 69A3CC9F15AFADDE00FC84A9;
 			productRefGroup = 69A3CCAB15AFADDE00FC84A9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 69A3CD1515AFAF7B00FC84A9 /* Products */;
+					ProjectRef = 69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				69A3CCA915AFADDE00FC84A9 /* ESCatalog */,
@@ -208,6 +241,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		69A3CD1A15AFAF7B00FC84A9 /* libESBlocks.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libESBlocks.a;
+			remoteRef = 69A3CD1915AFAF7B00FC84A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		69A3CD1C15AFAF7B00FC84A9 /* ESBlocksTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ESBlocksTests.octest;
+			remoteRef = 69A3CD1B15AFAF7B00FC84A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		69A3CCA815AFADDE00FC84A9 /* Resources */ = {
@@ -342,6 +392,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ESCatalog/ESCatalog-Prefix.pch";
+				HEADER_SEARCH_PATHS = Lib/ESBlocks/ESBlocks;
 				INFOPLIST_FILE = "ESCatalog/ESCatalog-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -353,6 +404,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ESCatalog/ESCatalog-Prefix.pch";
+				HEADER_SEARCH_PATHS = Lib/ESBlocks/ESBlocks;
 				INFOPLIST_FILE = "ESCatalog/ESCatalog-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -412,6 +464,7 @@
 				69A3CCD915AFADDE00FC84A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69A3CCDA15AFADDE00FC84A9 /* Build configuration list for PBXNativeTarget "ESCatalogTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +473,7 @@
 				69A3CCDC15AFADDE00FC84A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
