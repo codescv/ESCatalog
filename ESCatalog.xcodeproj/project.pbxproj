@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690D6F1315B3A56500A59174 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D6F1115B3A56500A59174 /* AddressBook.framework */; };
+		690D6F1415B3A56500A59174 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D6F1215B3A56500A59174 /* AddressBookUI.framework */; };
+		690D6F1615B3A57700A59174 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D6F1515B3A57700A59174 /* MessageUI.framework */; };
+		690D6F4615B3ACF200A59174 /* ESBlocks.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 690D6F4515B3ACF200A59174 /* ESBlocks.bundle */; };
 		69A3CCAF15AFADDE00FC84A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCAE15AFADDE00FC84A9 /* UIKit.framework */; };
 		69A3CCB115AFADDE00FC84A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCB015AFADDE00FC84A9 /* Foundation.framework */; };
 		69A3CCB315AFADDE00FC84A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCB215AFADDE00FC84A9 /* CoreGraphics.framework */; };
 		69A3CCB915AFADDE00FC84A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CCB715AFADDE00FC84A9 /* InfoPlist.strings */; };
 		69A3CCBB15AFADDE00FC84A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CCBA15AFADDE00FC84A9 /* main.m */; };
-		69A3CCBF15AFADDE00FC84A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CCBE15AFADDE00FC84A9 /* AppDelegate.m */; };
 		69A3CCC715AFADDE00FC84A9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCC615AFADDE00FC84A9 /* SenTestingKit.framework */; };
 		69A3CCC815AFADDE00FC84A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCAE15AFADDE00FC84A9 /* UIKit.framework */; };
 		69A3CCC915AFADDE00FC84A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCB015AFADDE00FC84A9 /* Foundation.framework */; };
 		69A3CCD115AFADDE00FC84A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CCCF15AFADDE00FC84A9 /* InfoPlist.strings */; };
 		69A3CCD415AFADDE00FC84A9 /* ESCatalogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CCD315AFADDE00FC84A9 /* ESCatalogTests.m */; };
 		69A3CD2815AFB01A00FC84A9 /* libESBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CD1A15AFAF7B00FC84A9 /* libESBlocks.a */; };
+		69A3CDC815AFB2D500FC84A9 /* alert-view-bg-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDA815AFB2D500FC84A9 /* alert-view-bg-portrait.png */; };
+		69A3CDC915AFB2D500FC84A9 /* alert-view-bg-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDA915AFB2D500FC84A9 /* alert-view-bg-portrait@2x.png */; };
+		69A3CDCA15AFB2D500FC84A9 /* alert-view-cancel-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDAA15AFB2D500FC84A9 /* alert-view-cancel-button.png */; };
+		69A3CDCB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDAB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png */; };
+		69A3CDCC15AFB2D500FC84A9 /* alert-view-ok-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDAC15AFB2D500FC84A9 /* alert-view-ok-button.png */; };
+		69A3CDCD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDAD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png */; };
+		69A3CDD015AFB2D500FC84A9 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDB315AFB2D500FC84A9 /* DemoViewController.m */; };
+		69A3CDD115AFB2D500FC84A9 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDB415AFB2D500FC84A9 /* DemoViewController.xib */; };
+		69A3CDD215AFB2D500FC84A9 /* DialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDB615AFB2D500FC84A9 /* DialogViewController.m */; };
+		69A3CDD315AFB2D500FC84A9 /* DialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDB715AFB2D500FC84A9 /* DialogViewController.xib */; };
+		69A3CDD615AFB2D500FC84A9 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDBE15AFB2D500FC84A9 /* GridViewController.m */; };
+		69A3CDD715AFB2D500FC84A9 /* GridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDBF15AFB2D500FC84A9 /* GridViewController.xib */; };
+		69A3CDD815AFB2D500FC84A9 /* NavContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDC115AFB2D500FC84A9 /* NavContentViewController.m */; };
+		69A3CDD915AFB2D500FC84A9 /* NavContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDC215AFB2D500FC84A9 /* NavContentViewController.xib */; };
+		69A3CDDA15AFB2D500FC84A9 /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDC415AFB2D500FC84A9 /* PopupViewController.m */; };
+		69A3CDDB15AFB2D500FC84A9 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDC515AFB2D500FC84A9 /* PopupViewController.xib */; };
+		69A3CDDC15AFB2D500FC84A9 /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDC715AFB2D500FC84A9 /* TestObj.m */; };
+		69A3CE3615AFB41700FC84A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CE3515AFB41700FC84A9 /* AppDelegate.m */; };
+		69A3CE4615AFB52F00FC84A9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CE4515AFB52F00FC84A9 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +68,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		690D6F1115B3A56500A59174 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		690D6F1215B3A56500A59174 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		690D6F1515B3A57700A59174 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		690D6F4515B3ACF200A59174 /* ESBlocks.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ESBlocks.bundle; path = Lib/ESBlocks/ESBlocks/ESBlocks.bundle; sourceTree = SOURCE_ROOT; };
 		69A3CCAA15AFADDE00FC84A9 /* ESCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A3CCAE15AFADDE00FC84A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		69A3CCB015AFADDE00FC84A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,8 +80,6 @@
 		69A3CCB815AFADDE00FC84A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69A3CCBA15AFADDE00FC84A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69A3CCBC15AFADDE00FC84A9 /* ESCatalog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ESCatalog-Prefix.pch"; sourceTree = "<group>"; };
-		69A3CCBD15AFADDE00FC84A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		69A3CCBE15AFADDE00FC84A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		69A3CCC515AFADDE00FC84A9 /* ESCatalogTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESCatalogTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A3CCC615AFADDE00FC84A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		69A3CCCE15AFADDE00FC84A9 /* ESCatalogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESCatalogTests-Info.plist"; sourceTree = "<group>"; };
@@ -63,6 +87,32 @@
 		69A3CCD215AFADDE00FC84A9 /* ESCatalogTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCatalogTests.h; sourceTree = "<group>"; };
 		69A3CCD315AFADDE00FC84A9 /* ESCatalogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCatalogTests.m; sourceTree = "<group>"; };
 		69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESBlocks.xcodeproj; path = Lib/ESBlocks/ESBlocks.xcodeproj; sourceTree = "<group>"; };
+		69A3CDA815AFB2D500FC84A9 /* alert-view-bg-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-bg-portrait.png"; sourceTree = "<group>"; };
+		69A3CDA915AFB2D500FC84A9 /* alert-view-bg-portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-bg-portrait@2x.png"; sourceTree = "<group>"; };
+		69A3CDAA15AFB2D500FC84A9 /* alert-view-cancel-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-cancel-button.png"; sourceTree = "<group>"; };
+		69A3CDAB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-cancel-button@2x.png"; sourceTree = "<group>"; };
+		69A3CDAC15AFB2D500FC84A9 /* alert-view-ok-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-ok-button.png"; sourceTree = "<group>"; };
+		69A3CDAD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-ok-button@2x.png"; sourceTree = "<group>"; };
+		69A3CDB215AFB2D500FC84A9 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		69A3CDB315AFB2D500FC84A9 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		69A3CDB415AFB2D500FC84A9 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		69A3CDB515AFB2D500FC84A9 /* DialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogViewController.h; sourceTree = "<group>"; };
+		69A3CDB615AFB2D500FC84A9 /* DialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogViewController.m; sourceTree = "<group>"; };
+		69A3CDB715AFB2D500FC84A9 /* DialogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogViewController.xib; sourceTree = "<group>"; };
+		69A3CDBD15AFB2D500FC84A9 /* GridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
+		69A3CDBE15AFB2D500FC84A9 /* GridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
+		69A3CDBF15AFB2D500FC84A9 /* GridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridViewController.xib; sourceTree = "<group>"; };
+		69A3CDC015AFB2D500FC84A9 /* NavContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavContentViewController.h; sourceTree = "<group>"; };
+		69A3CDC115AFB2D500FC84A9 /* NavContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavContentViewController.m; sourceTree = "<group>"; };
+		69A3CDC215AFB2D500FC84A9 /* NavContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavContentViewController.xib; sourceTree = "<group>"; };
+		69A3CDC315AFB2D500FC84A9 /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		69A3CDC415AFB2D500FC84A9 /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
+		69A3CDC515AFB2D500FC84A9 /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
+		69A3CDC615AFB2D500FC84A9 /* TestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		69A3CDC715AFB2D500FC84A9 /* TestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+		69A3CE3415AFB41700FC84A9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69A3CE3515AFB41700FC84A9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69A3CE4515AFB52F00FC84A9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +120,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690D6F1615B3A57700A59174 /* MessageUI.framework in Frameworks */,
+				690D6F1315B3A56500A59174 /* AddressBook.framework in Frameworks */,
+				690D6F1415B3A56500A59174 /* AddressBookUI.framework in Frameworks */,
 				69A3CD2815AFB01A00FC84A9 /* libESBlocks.a in Frameworks */,
 				69A3CCAF15AFADDE00FC84A9 /* UIKit.framework in Frameworks */,
 				69A3CCB115AFADDE00FC84A9 /* Foundation.framework in Frameworks */,
+				69A3CE4615AFB52F00FC84A9 /* MobileCoreServices.framework in Frameworks */,
 				69A3CCB315AFADDE00FC84A9 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,6 +167,10 @@
 			isa = PBXGroup;
 			children = (
 				69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */,
+				690D6F1515B3A57700A59174 /* MessageUI.framework */,
+				690D6F1115B3A56500A59174 /* AddressBook.framework */,
+				690D6F1215B3A56500A59174 /* AddressBookUI.framework */,
+				69A3CE4515AFB52F00FC84A9 /* MobileCoreServices.framework */,
 				69A3CCAE15AFADDE00FC84A9 /* UIKit.framework */,
 				69A3CCB015AFADDE00FC84A9 /* Foundation.framework */,
 				69A3CCB215AFADDE00FC84A9 /* CoreGraphics.framework */,
@@ -124,8 +182,32 @@
 		69A3CCB415AFADDE00FC84A9 /* ESCatalog */ = {
 			isa = PBXGroup;
 			children = (
-				69A3CCBD15AFADDE00FC84A9 /* AppDelegate.h */,
-				69A3CCBE15AFADDE00FC84A9 /* AppDelegate.m */,
+				69A3CE3415AFB41700FC84A9 /* AppDelegate.h */,
+				69A3CE3515AFB41700FC84A9 /* AppDelegate.m */,
+				69A3CDA815AFB2D500FC84A9 /* alert-view-bg-portrait.png */,
+				69A3CDA915AFB2D500FC84A9 /* alert-view-bg-portrait@2x.png */,
+				69A3CDAA15AFB2D500FC84A9 /* alert-view-cancel-button.png */,
+				69A3CDAB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png */,
+				69A3CDAC15AFB2D500FC84A9 /* alert-view-ok-button.png */,
+				69A3CDAD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png */,
+				69A3CDB215AFB2D500FC84A9 /* DemoViewController.h */,
+				69A3CDB315AFB2D500FC84A9 /* DemoViewController.m */,
+				69A3CDB415AFB2D500FC84A9 /* DemoViewController.xib */,
+				69A3CDB515AFB2D500FC84A9 /* DialogViewController.h */,
+				69A3CDB615AFB2D500FC84A9 /* DialogViewController.m */,
+				69A3CDB715AFB2D500FC84A9 /* DialogViewController.xib */,
+				69A3CDBD15AFB2D500FC84A9 /* GridViewController.h */,
+				69A3CDBE15AFB2D500FC84A9 /* GridViewController.m */,
+				69A3CDBF15AFB2D500FC84A9 /* GridViewController.xib */,
+				69A3CDC015AFB2D500FC84A9 /* NavContentViewController.h */,
+				69A3CDC115AFB2D500FC84A9 /* NavContentViewController.m */,
+				69A3CDC215AFB2D500FC84A9 /* NavContentViewController.xib */,
+				69A3CDC315AFB2D500FC84A9 /* PopupViewController.h */,
+				69A3CDC415AFB2D500FC84A9 /* PopupViewController.m */,
+				69A3CDC515AFB2D500FC84A9 /* PopupViewController.xib */,
+				69A3CDC615AFB2D500FC84A9 /* TestObj.h */,
+				69A3CDC715AFB2D500FC84A9 /* TestObj.m */,
+				690D6F4515B3ACF200A59174 /* ESBlocks.bundle */,
 				69A3CCB515AFADDE00FC84A9 /* Supporting Files */,
 			);
 			path = ESCatalog;
@@ -265,6 +347,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				69A3CCB915AFADDE00FC84A9 /* InfoPlist.strings in Resources */,
+				69A3CDC815AFB2D500FC84A9 /* alert-view-bg-portrait.png in Resources */,
+				69A3CDC915AFB2D500FC84A9 /* alert-view-bg-portrait@2x.png in Resources */,
+				69A3CDCA15AFB2D500FC84A9 /* alert-view-cancel-button.png in Resources */,
+				69A3CDCB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png in Resources */,
+				69A3CDCC15AFB2D500FC84A9 /* alert-view-ok-button.png in Resources */,
+				69A3CDCD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png in Resources */,
+				69A3CDD115AFB2D500FC84A9 /* DemoViewController.xib in Resources */,
+				69A3CDD315AFB2D500FC84A9 /* DialogViewController.xib in Resources */,
+				69A3CDD715AFB2D500FC84A9 /* GridViewController.xib in Resources */,
+				69A3CDD915AFB2D500FC84A9 /* NavContentViewController.xib in Resources */,
+				69A3CDDB15AFB2D500FC84A9 /* PopupViewController.xib in Resources */,
+				690D6F4615B3ACF200A59174 /* ESBlocks.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +394,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				69A3CCBB15AFADDE00FC84A9 /* main.m in Sources */,
-				69A3CCBF15AFADDE00FC84A9 /* AppDelegate.m in Sources */,
+				69A3CDD015AFB2D500FC84A9 /* DemoViewController.m in Sources */,
+				69A3CDD215AFB2D500FC84A9 /* DialogViewController.m in Sources */,
+				69A3CDD615AFB2D500FC84A9 /* GridViewController.m in Sources */,
+				69A3CDD815AFB2D500FC84A9 /* NavContentViewController.m in Sources */,
+				69A3CDDA15AFB2D500FC84A9 /* PopupViewController.m in Sources */,
+				69A3CDDC15AFB2D500FC84A9 /* TestObj.m in Sources */,
+				69A3CE3615AFB41700FC84A9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +494,10 @@
 				GCC_PREFIX_HEADER = "ESCatalog/ESCatalog-Prefix.pch";
 				HEADER_SEARCH_PATHS = Lib/ESBlocks/ESBlocks;
 				INFOPLIST_FILE = "ESCatalog/ESCatalog-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +510,10 @@
 				GCC_PREFIX_HEADER = "ESCatalog/ESCatalog-Prefix.pch";
 				HEADER_SEARCH_PATHS = Lib/ESBlocks/ESBlocks;
 				INFOPLIST_FILE = "ESCatalog/ESCatalog-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

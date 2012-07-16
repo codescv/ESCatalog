@@ -1,13 +1,14 @@
 //
 //  AppDelegate.m
-//  ESCatalog
+//  ESBlocks
 //
-//  Created by Chi Zhang on 7/13/12.
+//  Created by Chi Zhang on 6/21/12.
 //  Copyright (c) 2012 Chi Zhang. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ESBlocks.h"
+
+#import "DemoViewController.h"
 
 @implementation AppDelegate
 
@@ -20,8 +21,10 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    [ESBlocks sayHello];
-    
+    DemoViewController *demovc = [[DemoViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:demovc];
+    self.window.rootViewController = nav;
+
     return YES;
 }
 

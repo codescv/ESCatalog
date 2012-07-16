@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  ESCatalog
+//  ESBlocks
 //
-//  Created by Chi Zhang on 7/13/12.
+//  Created by Chi Zhang on 6/21/12.
 //  Copyright (c) 2012 Chi Zhang. All rights reserved.
 //
 
