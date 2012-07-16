@@ -1,0 +1,3 @@
+[submodule "Lib/ESBlocks"]
+	path = Lib/ESBlocks
+	url = git@github.com:eshock/ESBlocks.git
