@@ -10,7 +10,8 @@
 		690D6F1315B3A56500A59174 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D6F1115B3A56500A59174 /* AddressBook.framework */; };
 		690D6F1415B3A56500A59174 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D6F1215B3A56500A59174 /* AddressBookUI.framework */; };
 		690D6F1615B3A57700A59174 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D6F1515B3A57700A59174 /* MessageUI.framework */; };
-		690D6F4615B3ACF200A59174 /* ESBlocks.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 690D6F4515B3ACF200A59174 /* ESBlocks.bundle */; };
+		6968A88115B3BA78001D937F /* libESBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6968A87C15B3BA6E001D937F /* libESBlocks.a */; };
+		6968A88215B3BB0B001D937F /* ESBlocksResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6968A88015B3BA6E001D937F /* ESBlocksResources.bundle */; };
 		69A3CCAF15AFADDE00FC84A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCAE15AFADDE00FC84A9 /* UIKit.framework */; };
 		69A3CCB115AFADDE00FC84A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCB015AFADDE00FC84A9 /* Foundation.framework */; };
 		69A3CCB315AFADDE00FC84A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCB215AFADDE00FC84A9 /* CoreGraphics.framework */; };
@@ -21,7 +22,6 @@
 		69A3CCC915AFADDE00FC84A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCB015AFADDE00FC84A9 /* Foundation.framework */; };
 		69A3CCD115AFADDE00FC84A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CCCF15AFADDE00FC84A9 /* InfoPlist.strings */; };
 		69A3CCD415AFADDE00FC84A9 /* ESCatalogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CCD315AFADDE00FC84A9 /* ESCatalogTests.m */; };
-		69A3CD2815AFB01A00FC84A9 /* libESBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CD1A15AFAF7B00FC84A9 /* libESBlocks.a */; };
 		69A3CDC815AFB2D500FC84A9 /* alert-view-bg-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDA815AFB2D500FC84A9 /* alert-view-bg-portrait.png */; };
 		69A3CDC915AFB2D500FC84A9 /* alert-view-bg-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDA915AFB2D500FC84A9 /* alert-view-bg-portrait@2x.png */; };
 		69A3CDCA15AFB2D500FC84A9 /* alert-view-cancel-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDAA15AFB2D500FC84A9 /* alert-view-cancel-button.png */; };
@@ -44,6 +44,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6968A87B15B3BA6E001D937F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6968A87215B3BA6D001D937F /* ESBlocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 69A3CCE815AFAEB400FC84A9;
+			remoteInfo = ESBlocks;
+		};
+		6968A87D15B3BA6E001D937F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6968A87215B3BA6D001D937F /* ESBlocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 69A3CCF815AFAEB400FC84A9;
+			remoteInfo = ESBlocksTests;
+		};
+		6968A87F15B3BA6E001D937F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6968A87215B3BA6D001D937F /* ESBlocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6968A85415B3B77B001D937F;
+			remoteInfo = ESBlocksResources;
+		};
 		69A3CCCA15AFADDE00FC84A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 69A3CCA115AFADDE00FC84A9 /* Project object */;
@@ -51,27 +72,13 @@
 			remoteGlobalIDString = 69A3CCA915AFADDE00FC84A9;
 			remoteInfo = ESCatalog;
 		};
-		69A3CD1915AFAF7B00FC84A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 69A3CCE815AFAEB400FC84A9;
-			remoteInfo = ESBlocks;
-		};
-		69A3CD1B15AFAF7B00FC84A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 69A3CCF815AFAEB400FC84A9;
-			remoteInfo = ESBlocksTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		690D6F1115B3A56500A59174 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		690D6F1215B3A56500A59174 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		690D6F1515B3A57700A59174 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		690D6F4515B3ACF200A59174 /* ESBlocks.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ESBlocks.bundle; path = Lib/ESBlocks/ESBlocks/ESBlocks.bundle; sourceTree = SOURCE_ROOT; };
+		6968A87215B3BA6D001D937F /* ESBlocks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESBlocks.xcodeproj; path = Lib/ESBlocks/ESBlocks.xcodeproj; sourceTree = "<group>"; };
 		69A3CCAA15AFADDE00FC84A9 /* ESCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A3CCAE15AFADDE00FC84A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		69A3CCB015AFADDE00FC84A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,7 +93,6 @@
 		69A3CCD015AFADDE00FC84A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69A3CCD215AFADDE00FC84A9 /* ESCatalogTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCatalogTests.h; sourceTree = "<group>"; };
 		69A3CCD315AFADDE00FC84A9 /* ESCatalogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCatalogTests.m; sourceTree = "<group>"; };
-		69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESBlocks.xcodeproj; path = Lib/ESBlocks/ESBlocks.xcodeproj; sourceTree = "<group>"; };
 		69A3CDA815AFB2D500FC84A9 /* alert-view-bg-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-bg-portrait.png"; sourceTree = "<group>"; };
 		69A3CDA915AFB2D500FC84A9 /* alert-view-bg-portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-bg-portrait@2x.png"; sourceTree = "<group>"; };
 		69A3CDAA15AFB2D500FC84A9 /* alert-view-cancel-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-cancel-button.png"; sourceTree = "<group>"; };
@@ -120,10 +126,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6968A88115B3BA78001D937F /* libESBlocks.a in Frameworks */,
 				690D6F1615B3A57700A59174 /* MessageUI.framework in Frameworks */,
 				690D6F1315B3A56500A59174 /* AddressBook.framework in Frameworks */,
 				690D6F1415B3A56500A59174 /* AddressBookUI.framework in Frameworks */,
-				69A3CD2815AFB01A00FC84A9 /* libESBlocks.a in Frameworks */,
 				69A3CCAF15AFADDE00FC84A9 /* UIKit.framework in Frameworks */,
 				69A3CCB115AFADDE00FC84A9 /* Foundation.framework in Frameworks */,
 				69A3CE4615AFB52F00FC84A9 /* MobileCoreServices.framework in Frameworks */,
@@ -144,6 +150,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6968A87315B3BA6D001D937F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6968A87C15B3BA6E001D937F /* libESBlocks.a */,
+				6968A87E15B3BA6E001D937F /* ESBlocksTests.octest */,
+				6968A88015B3BA6E001D937F /* ESBlocksResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		69A3CC9F15AFADDE00FC84A9 = {
 			isa = PBXGroup;
 			children = (
@@ -166,7 +182,7 @@
 		69A3CCAD15AFADDE00FC84A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */,
+				6968A87215B3BA6D001D937F /* ESBlocks.xcodeproj */,
 				690D6F1515B3A57700A59174 /* MessageUI.framework */,
 				690D6F1115B3A56500A59174 /* AddressBook.framework */,
 				690D6F1215B3A56500A59174 /* AddressBookUI.framework */,
@@ -207,7 +223,6 @@
 				69A3CDC515AFB2D500FC84A9 /* PopupViewController.xib */,
 				69A3CDC615AFB2D500FC84A9 /* TestObj.h */,
 				69A3CDC715AFB2D500FC84A9 /* TestObj.m */,
-				690D6F4515B3ACF200A59174 /* ESBlocks.bundle */,
 				69A3CCB515AFADDE00FC84A9 /* Supporting Files */,
 			);
 			path = ESCatalog;
@@ -241,15 +256,6 @@
 				69A3CCCF15AFADDE00FC84A9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		69A3CD1515AFAF7B00FC84A9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				69A3CD1A15AFAF7B00FC84A9 /* libESBlocks.a */,
-				69A3CD1C15AFAF7B00FC84A9 /* ESBlocksTests.octest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,8 +318,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 69A3CD1515AFAF7B00FC84A9 /* Products */;
-					ProjectRef = 69A3CD1415AFAF7B00FC84A9 /* ESBlocks.xcodeproj */;
+					ProductGroup = 6968A87315B3BA6D001D937F /* Products */;
+					ProjectRef = 6968A87215B3BA6D001D937F /* ESBlocks.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -325,18 +331,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		69A3CD1A15AFAF7B00FC84A9 /* libESBlocks.a */ = {
+		6968A87C15B3BA6E001D937F /* libESBlocks.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libESBlocks.a;
-			remoteRef = 69A3CD1915AFAF7B00FC84A9 /* PBXContainerItemProxy */;
+			remoteRef = 6968A87B15B3BA6E001D937F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		69A3CD1C15AFAF7B00FC84A9 /* ESBlocksTests.octest */ = {
+		6968A87E15B3BA6E001D937F /* ESBlocksTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ESBlocksTests.octest;
-			remoteRef = 69A3CD1B15AFAF7B00FC84A9 /* PBXContainerItemProxy */;
+			remoteRef = 6968A87D15B3BA6E001D937F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6968A88015B3BA6E001D937F /* ESBlocksResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ESBlocksResources.bundle;
+			remoteRef = 6968A87F15B3BA6E001D937F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -358,7 +371,7 @@
 				69A3CDD715AFB2D500FC84A9 /* GridViewController.xib in Resources */,
 				69A3CDD915AFB2D500FC84A9 /* NavContentViewController.xib in Resources */,
 				69A3CDDB15AFB2D500FC84A9 /* PopupViewController.xib in Resources */,
-				690D6F4615B3ACF200A59174 /* ESBlocks.bundle in Resources */,
+				6968A88215B3BB0B001D937F /* ESBlocksResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
