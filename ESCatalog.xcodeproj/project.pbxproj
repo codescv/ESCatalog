@@ -11,7 +11,8 @@
 		690D6F1415B3A56500A59174 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D6F1215B3A56500A59174 /* AddressBookUI.framework */; };
 		690D6F1615B3A57700A59174 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D6F1515B3A57700A59174 /* MessageUI.framework */; };
 		6968A88115B3BA78001D937F /* libESBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6968A87C15B3BA6E001D937F /* libESBlocks.a */; };
-		6968A88215B3BB0B001D937F /* ESBlocksResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6968A88015B3BA6E001D937F /* ESBlocksResources.bundle */; };
+		6973362215BE2F1C00787459 /* ESComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6973362015BE2F1C00787459 /* ESComposeViewController.m */; };
+		6973362315BE2F1C00787459 /* ESComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6973362115BE2F1C00787459 /* ESComposeViewController.xib */; };
 		69A3CCAF15AFADDE00FC84A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCAE15AFADDE00FC84A9 /* UIKit.framework */; };
 		69A3CCB115AFADDE00FC84A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCB015AFADDE00FC84A9 /* Foundation.framework */; };
 		69A3CCB315AFADDE00FC84A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CCB215AFADDE00FC84A9 /* CoreGraphics.framework */; };
@@ -28,19 +29,16 @@
 		69A3CDCB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDAB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png */; };
 		69A3CDCC15AFB2D500FC84A9 /* alert-view-ok-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDAC15AFB2D500FC84A9 /* alert-view-ok-button.png */; };
 		69A3CDCD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDAD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png */; };
-		69A3CDD015AFB2D500FC84A9 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDB315AFB2D500FC84A9 /* DemoViewController.m */; };
-		69A3CDD115AFB2D500FC84A9 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDB415AFB2D500FC84A9 /* DemoViewController.xib */; };
 		69A3CDD215AFB2D500FC84A9 /* DialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDB615AFB2D500FC84A9 /* DialogViewController.m */; };
 		69A3CDD315AFB2D500FC84A9 /* DialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDB715AFB2D500FC84A9 /* DialogViewController.xib */; };
 		69A3CDD615AFB2D500FC84A9 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDBE15AFB2D500FC84A9 /* GridViewController.m */; };
-		69A3CDD715AFB2D500FC84A9 /* GridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDBF15AFB2D500FC84A9 /* GridViewController.xib */; };
-		69A3CDD815AFB2D500FC84A9 /* NavContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDC115AFB2D500FC84A9 /* NavContentViewController.m */; };
-		69A3CDD915AFB2D500FC84A9 /* NavContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDC215AFB2D500FC84A9 /* NavContentViewController.xib */; };
 		69A3CDDA15AFB2D500FC84A9 /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDC415AFB2D500FC84A9 /* PopupViewController.m */; };
 		69A3CDDB15AFB2D500FC84A9 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A3CDC515AFB2D500FC84A9 /* PopupViewController.xib */; };
 		69A3CDDC15AFB2D500FC84A9 /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CDC715AFB2D500FC84A9 /* TestObj.m */; };
 		69A3CE3615AFB41700FC84A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3CE3515AFB41700FC84A9 /* AppDelegate.m */; };
 		69A3CE4615AFB52F00FC84A9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3CE4515AFB52F00FC84A9 /* MobileCoreServices.framework */; };
+		69AE2E1415BCDB260048EFA4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AE2E1315BCDB260048EFA4 /* Storyboard.storyboard */; };
+		69AE2E1715BCDD260048EFA4 /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AE2E1615BCDD260048EFA4 /* CatalogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +56,6 @@
 			remoteGlobalIDString = 69A3CCF815AFAEB400FC84A9;
 			remoteInfo = ESBlocksTests;
 		};
-		6968A87F15B3BA6E001D937F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6968A87215B3BA6D001D937F /* ESBlocks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6968A85415B3B77B001D937F;
-			remoteInfo = ESBlocksResources;
-		};
 		69A3CCCA15AFADDE00FC84A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 69A3CCA115AFADDE00FC84A9 /* Project object */;
@@ -79,6 +70,9 @@
 		690D6F1215B3A56500A59174 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		690D6F1515B3A57700A59174 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		6968A87215B3BA6D001D937F /* ESBlocks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESBlocks.xcodeproj; path = Lib/ESBlocks/ESBlocks.xcodeproj; sourceTree = "<group>"; };
+		6973361F15BE2F1C00787459 /* ESComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESComposeViewController.h; sourceTree = "<group>"; };
+		6973362015BE2F1C00787459 /* ESComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESComposeViewController.m; sourceTree = "<group>"; };
+		6973362115BE2F1C00787459 /* ESComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESComposeViewController.xib; sourceTree = "<group>"; };
 		69A3CCAA15AFADDE00FC84A9 /* ESCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A3CCAE15AFADDE00FC84A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		69A3CCB015AFADDE00FC84A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,18 +93,11 @@
 		69A3CDAB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-cancel-button@2x.png"; sourceTree = "<group>"; };
 		69A3CDAC15AFB2D500FC84A9 /* alert-view-ok-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-ok-button.png"; sourceTree = "<group>"; };
 		69A3CDAD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-view-ok-button@2x.png"; sourceTree = "<group>"; };
-		69A3CDB215AFB2D500FC84A9 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
-		69A3CDB315AFB2D500FC84A9 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
-		69A3CDB415AFB2D500FC84A9 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		69A3CDB515AFB2D500FC84A9 /* DialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogViewController.h; sourceTree = "<group>"; };
 		69A3CDB615AFB2D500FC84A9 /* DialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogViewController.m; sourceTree = "<group>"; };
 		69A3CDB715AFB2D500FC84A9 /* DialogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogViewController.xib; sourceTree = "<group>"; };
 		69A3CDBD15AFB2D500FC84A9 /* GridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
 		69A3CDBE15AFB2D500FC84A9 /* GridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
-		69A3CDBF15AFB2D500FC84A9 /* GridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridViewController.xib; sourceTree = "<group>"; };
-		69A3CDC015AFB2D500FC84A9 /* NavContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavContentViewController.h; sourceTree = "<group>"; };
-		69A3CDC115AFB2D500FC84A9 /* NavContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavContentViewController.m; sourceTree = "<group>"; };
-		69A3CDC215AFB2D500FC84A9 /* NavContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavContentViewController.xib; sourceTree = "<group>"; };
 		69A3CDC315AFB2D500FC84A9 /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
 		69A3CDC415AFB2D500FC84A9 /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
 		69A3CDC515AFB2D500FC84A9 /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
@@ -119,6 +106,9 @@
 		69A3CE3415AFB41700FC84A9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		69A3CE3515AFB41700FC84A9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		69A3CE4515AFB52F00FC84A9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		69AE2E1315BCDB260048EFA4 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		69AE2E1515BCDD260048EFA4 /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewController.h; sourceTree = "<group>"; };
+		69AE2E1615BCDD260048EFA4 /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +145,6 @@
 			children = (
 				6968A87C15B3BA6E001D937F /* libESBlocks.a */,
 				6968A87E15B3BA6E001D937F /* ESBlocksTests.octest */,
-				6968A88015B3BA6E001D937F /* ESBlocksResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,29 +189,23 @@
 			children = (
 				69A3CE3415AFB41700FC84A9 /* AppDelegate.h */,
 				69A3CE3515AFB41700FC84A9 /* AppDelegate.m */,
-				69A3CDA815AFB2D500FC84A9 /* alert-view-bg-portrait.png */,
-				69A3CDA915AFB2D500FC84A9 /* alert-view-bg-portrait@2x.png */,
-				69A3CDAA15AFB2D500FC84A9 /* alert-view-cancel-button.png */,
-				69A3CDAB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png */,
-				69A3CDAC15AFB2D500FC84A9 /* alert-view-ok-button.png */,
-				69A3CDAD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png */,
-				69A3CDB215AFB2D500FC84A9 /* DemoViewController.h */,
-				69A3CDB315AFB2D500FC84A9 /* DemoViewController.m */,
-				69A3CDB415AFB2D500FC84A9 /* DemoViewController.xib */,
+				69AE2E1315BCDB260048EFA4 /* Storyboard.storyboard */,
+				69AE2E1515BCDD260048EFA4 /* CatalogViewController.h */,
+				69AE2E1615BCDD260048EFA4 /* CatalogViewController.m */,
 				69A3CDB515AFB2D500FC84A9 /* DialogViewController.h */,
 				69A3CDB615AFB2D500FC84A9 /* DialogViewController.m */,
 				69A3CDB715AFB2D500FC84A9 /* DialogViewController.xib */,
-				69A3CDBD15AFB2D500FC84A9 /* GridViewController.h */,
-				69A3CDBE15AFB2D500FC84A9 /* GridViewController.m */,
-				69A3CDBF15AFB2D500FC84A9 /* GridViewController.xib */,
-				69A3CDC015AFB2D500FC84A9 /* NavContentViewController.h */,
-				69A3CDC115AFB2D500FC84A9 /* NavContentViewController.m */,
-				69A3CDC215AFB2D500FC84A9 /* NavContentViewController.xib */,
 				69A3CDC315AFB2D500FC84A9 /* PopupViewController.h */,
 				69A3CDC415AFB2D500FC84A9 /* PopupViewController.m */,
 				69A3CDC515AFB2D500FC84A9 /* PopupViewController.xib */,
+				69A3CDBD15AFB2D500FC84A9 /* GridViewController.h */,
+				69A3CDBE15AFB2D500FC84A9 /* GridViewController.m */,
+				6973361F15BE2F1C00787459 /* ESComposeViewController.h */,
+				6973362015BE2F1C00787459 /* ESComposeViewController.m */,
+				6973362115BE2F1C00787459 /* ESComposeViewController.xib */,
 				69A3CDC615AFB2D500FC84A9 /* TestObj.h */,
 				69A3CDC715AFB2D500FC84A9 /* TestObj.m */,
+				69AE2E1815BCDD370048EFA4 /* Resources */,
 				69A3CCB515AFADDE00FC84A9 /* Supporting Files */,
 			);
 			path = ESCatalog;
@@ -256,6 +239,27 @@
 				69A3CCCF15AFADDE00FC84A9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69AE2E1815BCDD370048EFA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69AE2E1915BCDD3D0048EFA4 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		69AE2E1915BCDD3D0048EFA4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				69A3CDA815AFB2D500FC84A9 /* alert-view-bg-portrait.png */,
+				69A3CDA915AFB2D500FC84A9 /* alert-view-bg-portrait@2x.png */,
+				69A3CDAA15AFB2D500FC84A9 /* alert-view-cancel-button.png */,
+				69A3CDAB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png */,
+				69A3CDAC15AFB2D500FC84A9 /* alert-view-ok-button.png */,
+				69A3CDAD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,13 +349,6 @@
 			remoteRef = 6968A87D15B3BA6E001D937F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6968A88015B3BA6E001D937F /* ESBlocksResources.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ESBlocksResources.bundle;
-			remoteRef = 6968A87F15B3BA6E001D937F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -366,12 +363,10 @@
 				69A3CDCB15AFB2D500FC84A9 /* alert-view-cancel-button@2x.png in Resources */,
 				69A3CDCC15AFB2D500FC84A9 /* alert-view-ok-button.png in Resources */,
 				69A3CDCD15AFB2D500FC84A9 /* alert-view-ok-button@2x.png in Resources */,
-				69A3CDD115AFB2D500FC84A9 /* DemoViewController.xib in Resources */,
 				69A3CDD315AFB2D500FC84A9 /* DialogViewController.xib in Resources */,
-				69A3CDD715AFB2D500FC84A9 /* GridViewController.xib in Resources */,
-				69A3CDD915AFB2D500FC84A9 /* NavContentViewController.xib in Resources */,
 				69A3CDDB15AFB2D500FC84A9 /* PopupViewController.xib in Resources */,
-				6968A88215B3BB0B001D937F /* ESBlocksResources.bundle in Resources */,
+				69AE2E1415BCDB260048EFA4 /* Storyboard.storyboard in Resources */,
+				6973362315BE2F1C00787459 /* ESComposeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,13 +402,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				69A3CCBB15AFADDE00FC84A9 /* main.m in Sources */,
-				69A3CDD015AFB2D500FC84A9 /* DemoViewController.m in Sources */,
 				69A3CDD215AFB2D500FC84A9 /* DialogViewController.m in Sources */,
 				69A3CDD615AFB2D500FC84A9 /* GridViewController.m in Sources */,
-				69A3CDD815AFB2D500FC84A9 /* NavContentViewController.m in Sources */,
 				69A3CDDA15AFB2D500FC84A9 /* PopupViewController.m in Sources */,
 				69A3CDDC15AFB2D500FC84A9 /* TestObj.m in Sources */,
 				69A3CE3615AFB41700FC84A9 /* AppDelegate.m in Sources */,
+				69AE2E1715BCDD260048EFA4 /* CatalogViewController.m in Sources */,
+				6973362215BE2F1C00787459 /* ESComposeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
